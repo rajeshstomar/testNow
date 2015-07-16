@@ -1,10 +1,10 @@
 <?php
-    # --- ENCRYPTION --- Hello Rajesh Tomar
+    # --- ENCRYPTION --- Hello Rajesh
 
     # the key should be random binary, use scrypt, bcrypt or PBKDF2 to
     # convert a string into a key
     # key is specified using hexadecimal
-	$salt1 = bin2hex(openssl_random_pseudo_bytes(16)); // comment added
+	$salt1 = bin2hex(openssl_random_pseudo_bytes(16));
 	$salt2= bin2hex(openssl_random_pseudo_bytes(8));
 	$salt = $salt1.$salt2;
     $key = pack('H*', $salt);
