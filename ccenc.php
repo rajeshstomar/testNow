@@ -1,5 +1,5 @@
 <?php
-    # --- ENCRYPTION ---
+    # --- ENCRYPTION --- Hello Rajesh
 
     # the key should be random binary, use scrypt, bcrypt or PBKDF2 to
     # convert a string into a key
