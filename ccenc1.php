@@ -1,6 +1,6 @@
 <?php
     # --- ENCRYPTION --- Hello Rajesh
-
+	#### added to the branch.
     # the key should be random binary, use scrypt, bcrypt or PBKDF2 to
     # convert a string into a key
     # key is specified using hexadecimal
